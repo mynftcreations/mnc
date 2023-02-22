@@ -1,0 +1,91 @@
+baseURL: "https://mynftcreations.github.io/mnc/"
+theme: "up-business-theme"
+languageCode: "en-us"
+title: "NFT Creations"
+# googleAnalytics: ""
+
+
+
+
+summaryLength: 20
+
+params:
+  description: "Professional services to expand your digital footprint."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "arrow-up.png"
+
+  module:
+    imports:
+    - path: gitlab.com/writeonlyhugo/up-business-demo.git
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    twitter: "https://twitter.com/NFTCreationsLLC"
+
+  location:
+    - "Earth"
+
+  contact:
+    - "contact@mynftcreations.art"
+    - "@NFTCreationsLLC"
+
+  copyright: "© 2023 All Rights Reserved"
+
+menus:
+  main:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    #- name: "How we work"
+    #  url: "/#"
+    #  weight: 2
+
+    #- name: "Our team"
+    #  url: "/#"
+    #  weight: 3
+
+    #- name: "Pricing"
+    #  url: "/#"
+    #  weight: 4
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+
+  buttons:
+    - name: "Reach Out"
+      url: "mailto:contact@mynftcreations.art"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    #- name: "How we work"
+    #  url: "/#"
+    #  weight: 2
+
+    #- name: "Our team"
+    #  url: "/#"
+    #  weight: 3
+
+    #- name: "Pricing"
+    #  url: "/#"
+    #  weight: 4
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+
+taxonomies:
+  series: "series"
+  tags: "tags"

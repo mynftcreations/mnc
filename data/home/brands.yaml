@@ -1,0 +1,17 @@
+enabled: true
+id: "exp-skills"
+
+content:
+  title: "Skills & Experience"
+  items:
+
+    - "NFT and Web3 Consulting"
+    - "Custom NFTs"
+    - "Custom Generative NFT Collection"
+    - "Personalized Mintable NFT Smart Contracts"
+    - "Smart Contract Creation"
+    - "Blockchain Data Analysis"    
+    - "Decentralized(DeFi) Finance"
+    - "Domain Registration"
+    - "General Consulting"
+    - "Web Site Creation Hosting and setup"
